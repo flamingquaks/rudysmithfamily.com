@@ -151,6 +151,21 @@ p {
   margin-bottom: 0.5rem;
 }
 
+.group-card .group-link {
+  display: inline-block;
+  font-size: 0.9rem;
+  margin-left: 0.75rem;
+  margin-bottom: 0.5rem;
+}
+
+.group-card .group-link::before {
+  content: "·";
+  color: var(--color-muted);
+  margin-right: 0.75rem;
+  text-decoration: none;
+  display: inline-block;
+}
+
 .group-card dl {
   margin: 0.75rem 0 0;
 }
